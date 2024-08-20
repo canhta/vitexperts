@@ -9,9 +9,9 @@ import ScrollToTop from "../common/scroll/scroll-to-top";
 const ShowcasesPage = () => {
   return (
     <>
-      <SEO pageTitle="Showcase" />
+      <SEO pageTitle="Show cases" />
       <Header />
-      <BreadCrumb title="Showcase" innerTitle="Showcase" />
+      <BreadCrumb title="Show cases" innerTitle="Show cases" />
       <Showcases />
       <Footer />
       <ScrollToTop />
