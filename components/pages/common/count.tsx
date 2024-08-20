@@ -1,5 +1,5 @@
-import React from 'react';
-import CountUp from 'react-countup';
+import React from "react";
+import CountUp from "react-countup";
 
 type Props = {
   number: number;

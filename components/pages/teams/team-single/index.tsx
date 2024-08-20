@@ -1,10 +1,10 @@
-'use client';
-import SEO from '@/components/data/seo';
-import Header from '@/components/layout/headers/header';
-import BreadCrumb from '../../common/breadcrumb';
-import TeamSingleMain from './team-single';
-import Footer from '@/components/layout/footers/footer';
-import ScrollToTop from '../../common/scroll/scroll-to-top';
+"use client";
+import SEO from "@/components/data/seo";
+import Header from "@/components/layout/headers/header";
+import BreadCrumb from "../../common/breadcrumb";
+import TeamSingleMain from "./team-single";
+import Footer from "@/components/layout/footers/footer";
+import ScrollToTop from "../../common/scroll/scroll-to-top";
 
 type Props = {
   teamDetails: any;

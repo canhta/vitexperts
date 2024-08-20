@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import FormArea from '../../contacts/form';
-import Image from 'next/image';
-import Count from '../../common/count';
+import Link from "next/link";
+import FormArea from "../../contacts/form";
+import Image from "next/image";
+import Count from "../../common/count";
 
 type Props = {
   teamDetails: {
@@ -15,21 +15,21 @@ type Props = {
 };
 const TeamSingleMain = ({ teamDetails }: Props) => {
   return (
-    <div className='team__details section-padding'>
-      <div className='container'>
-        <div className='row'>
-          <div className='col-xl-5 col-lg-5 lg-mb-30'>
-            <div className='team__details-left'>
-              <div className='team__details-left-thumb dark_image'>
-                <Image src={teamDetails.image} alt='image' />
+    <div className="team__details section-padding">
+      <div className="container">
+        <div className="row">
+          <div className="col-xl-5 col-lg-5 lg-mb-30">
+            <div className="team__details-left">
+              <div className="team__details-left-thumb dark_image">
+                <Image src={teamDetails.image} alt="image" />
               </div>
-              <div className='team__details-left-info'>
+              <div className="team__details-left-info">
                 <span>{teamDetails?.position}</span>
                 <h4>{teamDetails?.name}</h4>
-                <div className='team__details-left-info-contact'>
-                  <div className='team__details-left-info-contact-item'>
-                    <i className='far fa-envelope'></i>
-                    <div className='team__details-left-info-contact-item-info'>
+                <div className="team__details-left-info-contact">
+                  <div className="team__details-left-info-contact-item">
+                    <i className="far fa-envelope"></i>
+                    <div className="team__details-left-info-contact-item-info">
                       <span>Quick Email</span>
                       <h6>
                         <Link href={`mailto:${teamDetails?.mail}`}>
@@ -38,9 +38,9 @@ const TeamSingleMain = ({ teamDetails }: Props) => {
                       </h6>
                     </div>
                   </div>
-                  <div className='team__details-left-info-contact-item'>
-                    <i className='fal fa-phone-alt'></i>
-                    <div className='team__details-left-info-contact-item-info'>
+                  <div className="team__details-left-info-contact-item">
+                    <i className="fal fa-phone-alt"></i>
+                    <div className="team__details-left-info-contact-item-info">
                       <span>Tell With US</span>
                       <h6>
                         <Link href={`tel:${teamDetails?.phone}`}>
@@ -49,14 +49,14 @@ const TeamSingleMain = ({ teamDetails }: Props) => {
                       </h6>
                     </div>
                   </div>
-                  <div className='team__details-left-info-contact-item'>
-                    <i className='far fa-map-marker-alt'></i>
-                    <div className='team__details-left-info-contact-item-info'>
+                  <div className="team__details-left-info-contact-item">
+                    <i className="far fa-map-marker-alt"></i>
+                    <div className="team__details-left-info-contact-item-info">
                       <span>Office Location</span>
                       <h6>
                         <Link
-                          href='https://www.google.com/maps'
-                          target='_blank'
+                          href="https://www.google.com/maps"
+                          target="_blank"
                         >
                           PV3M+X68, United Kingdom
                         </Link>
@@ -64,7 +64,7 @@ const TeamSingleMain = ({ teamDetails }: Props) => {
                     </div>
                   </div>
                 </div>
-                <div className='social__icon'>
+                <div className="social__icon">
                   <ul>
                     {teamDetails?.social_link.map((social, id) => (
                       <li key={id}>
@@ -78,9 +78,9 @@ const TeamSingleMain = ({ teamDetails }: Props) => {
               </div>
             </div>
           </div>
-          <div className='col-xl-7 col-lg-7'>
-            <div className='team__details-right ml-20 xl-ml-0'>
-              <div className='team__details-right-experience'>
+          <div className="col-xl-7 col-lg-7">
+            <div className="team__details-right ml-20 xl-ml-0">
+              <div className="team__details-right-experience">
                 <h3>Career Guidelines</h3>
                 <p>
                   {`This involves assessing one's skills, interests, values, and
@@ -102,7 +102,7 @@ const TeamSingleMain = ({ teamDetails }: Props) => {
                   education and professional development.
                 </p>
               </div>
-              <div className='team__details-right-skill'>
+              <div className="team__details-right-skill">
                 <h3>Professional Skills</h3>
                 <p>
                   These are the skills required to operate specific tools,
@@ -110,34 +110,34 @@ const TeamSingleMain = ({ teamDetails }: Props) => {
                   web developer needs to have technical skills in programming
                   languages like HTML, CSS, and JavaScript.
                 </p>
-                <div className='skill__area'>
-                  <div className='skill__area-item'>
-                    <div className='skill__area-item-content'>
+                <div className="skill__area">
+                  <div className="skill__area-item">
+                    <div className="skill__area-item-content">
                       <h6>Business Consulting</h6>
                     </div>
-                    <div className='skill__area-item-inner'>
+                    <div className="skill__area-item-inner">
                       <Count number={78} />
                     </div>
                   </div>
-                  <div className='skill__area-item'>
-                    <div className='skill__area-item-content'>
+                  <div className="skill__area-item">
+                    <div className="skill__area-item-content">
                       <h6>Human Resource</h6>
                     </div>
-                    <div className='skill__area-item-inner'>
+                    <div className="skill__area-item-inner">
                       <Count number={65} />
                     </div>
                   </div>
-                  <div className='skill__area-item'>
-                    <div className='skill__area-item-content'>
+                  <div className="skill__area-item">
+                    <div className="skill__area-item-content">
                       <h6>Web Application</h6>
                     </div>
-                    <div className='skill__area-item-inner'>
+                    <div className="skill__area-item-inner">
                       <Count number={85} />
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='contact__form-area mt-40'>
+              <div className="contact__form-area mt-40">
                 <FormArea />
               </div>
             </div>

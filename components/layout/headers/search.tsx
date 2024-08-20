@@ -8,20 +8,20 @@ const Search = ({ isOpen, setIsOpen }: SearchProps) => {
     <>
       <div
         className={`header__area-menubar-right-box-search-box ${
-          isOpen ? 'active' : ''
+          isOpen ? "active" : ""
         }`}
       >
         <form>
-          <input type='search' placeholder='Search Here.....' />
-          <button type='submit'>
-            <i className='fal fa-search'></i>
+          <input type="search" placeholder="Search Here....." />
+          <button type="submit">
+            <i className="fal fa-search"></i>
           </button>
         </form>
         <span
-          className='header__area-menubar-right-box-search-box-icon'
+          className="header__area-menubar-right-box-search-box-icon"
           onClick={() => setIsOpen(false)}
         >
-          <i className='fal fa-times'></i>
+          <i className="fal fa-times"></i>
         </span>
       </div>
     </>

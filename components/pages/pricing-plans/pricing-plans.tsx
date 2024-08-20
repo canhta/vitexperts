@@ -1,11 +1,11 @@
-import Pricing from '../home/pricing';
+import Pricing from "../home/pricing";
 
 const PricingPlansMain = () => {
-	return (
-		<>
-		<Pricing />
-		</>
-	);
+  return (
+    <>
+      <Pricing />
+    </>
+  );
 };
 
 export default PricingPlansMain;
