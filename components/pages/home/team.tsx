@@ -9,7 +9,7 @@ const Team = () => {
         <div className="container">
           <div className="row justify-content-between align-items-end mb-60">
             <div className="col-xl-6 col-lg-7 col-md-9 team__two-title">
-              <span className="subtitle-one">Our Team member</span>
+              <span className="subtitle-one">Meet The Team member</span>
               <h2>Skilled Specialists</h2>
             </div>
             <div className="col-xl-3 col-lg-4 text-lg-end mt-lg-0 mt-3">

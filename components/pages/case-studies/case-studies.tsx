@@ -3,12 +3,12 @@ import Link from "next/link";
 import showcaseData from "@/components/data/showcase-data";
 import Image from "next/image";
 
-const showShowcaseItem = 4;
+const showCaseStudyItem = 4;
 
-const ShowcasesMain = () => {
+const CaseStudiesMain = () => {
   const showcaseItem = showcaseData;
   const [items, setItems] = useState(showcaseItem);
-  const [next, setNext] = useState(showShowcaseItem);
+  const [next, setNext] = useState(showCaseStudyItem);
   const handleLoadData = () => {
     setNext((value) => value + 2);
   };
@@ -51,4 +51,4 @@ const ShowcasesMain = () => {
   );
 };
 
-export default ShowcasesMain;
+export default CaseStudiesMain;

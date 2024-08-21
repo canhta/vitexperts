@@ -11,8 +11,8 @@ import { AppRoute } from '@/configs/app';
 const aboutRoutes: AppRoute[] = [
   { title: 'About Us', href: '/about-us' },
   { title: 'Our Services', href: '/services' },
-  { title: 'Our Team', href: '/team' },
-  { title: 'Show Cases', href: '/showcases' },
+  { title: 'Case Studies', href: '/case-studies' },
+  { title: 'Meet The Team', href: '/team' },
 ];
 
 const Footer = () => {

@@ -10,11 +10,11 @@ export type AppConfig = {
 export const appConfig = {
   routes: [
     { href: '/', title: 'Home' },
-    { href: '/services', title: 'Our Services' },
-    { href: '/team', title: 'Our Team' },
-    { href: '/showcases', title: 'Show Cases' },
-    { href: '/pricing-plan', title: 'Pricing' },
-    { href: '/blog', title: 'Blog' },
     { href: '/about', title: 'About Us' },
+    { href: '/services', title: 'Our Services' },
+    { href: '/case-studies', title: 'Case Studies' },
+    { href: '/pricing-plan', title: 'Pricing Plans' },
+    { href: '/team', title: 'Meet the Team' }, 
+    { href: '/blog', title: 'Insights' },
   ],
 };

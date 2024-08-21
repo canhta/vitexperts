@@ -45,8 +45,8 @@ TABLE OF CONTENTS
 * Service One Style
 * Service Five Style
 * Service Details CSS
-* Showcases One Style
-* Showcases Two CSS
+* CaseStudies One Style
+* CaseStudies Two CSS
 * Project Details CSS
 * Team One Style
 * Team Two Style
@@ -58,8 +58,8 @@ Contact Location Map
 * Why Choose Us two CSS
 * Why Choose Us three Style
 * Why Choose Us four Style
-* Pricing Plan One CSS
-* Pricing Plan Two CSS
+* Pricing Plans One CSS
+* Pricing Plans Two CSS
 * Work Process One Style
 * Work Process Two style 
 * Work Process Three style 
@@ -5923,7 +5923,7 @@ Responsive Menu Css
   }
 }
 /*==========================================================================
-* Showcases One Style
+* CaseStudies One Style
 ==========================================================================*/
 .showcase__one {
   background: var(--color-1);
@@ -6040,7 +6040,7 @@ Responsive Menu Css
   }
 }
 /*==========================================================================
-* Showcases Two CSS
+* CaseStudies Two CSS
 ==========================================================================*/
 .showcase__two-title {
   margin-bottom: 60px;
@@ -7082,7 +7082,7 @@ Responsive Menu Css
   }
 }
 /*==========================================================================
-* Pricing Plan One CSS
+* Pricing Plans One CSS
 ==========================================================================*/
 .pricing-plan__one-title {
   margin-bottom: 50px;
@@ -7182,7 +7182,7 @@ Responsive Menu Css
 }
 
 /*==========================================================================
-* Pricing Plan Two CSS
+* Pricing Plans Two CSS
 ==========================================================================*/
 .pricing-plan__two {
   background: linear-gradient(var(--color-1) 60%, var(--bg-white) 40%);

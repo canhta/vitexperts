@@ -2,25 +2,21 @@
 import SEO from "@/components/data/seo";
 import Header from "@/components/layout/headers/header";
 import BreadCrumb from "../../common/breadcrumb";
-import ShowcaseDetailsMain from "./showcase-details";
+import TeamMain from "./team";
 import Footer from "@/components/layout/footers/footer";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
 
-type Props = {
-  singleData: any;
-};
-
-const ShowcaseDetails = ({ singleData }: Props) => {
+const TeamPage = () => {
   return (
     <>
-      <SEO pageTitle={singleData?.title} />
+      <SEO pageTitle="Meet The Team" />
       <Header />
-      <BreadCrumb title={singleData?.title} innerTitle={singleData?.title} />
-      <ShowcaseDetailsMain singleData={singleData} />
+      <BreadCrumb title="Meet The Team" innerTitle="Meet The Team" />
+      <TeamMain />
       <Footer />
       <ScrollToTop />
     </>
   );
 };
 
-export default ShowcaseDetails;
+export default TeamPage;

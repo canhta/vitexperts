@@ -9,9 +9,9 @@ import ScrollToTop from "../common/scroll/scroll-to-top";
 const PricingPages = () => {
   return (
     <>
-      <SEO pageTitle="Pricing Plan" />
+      <SEO pageTitle="Pricing Plans" />
       <Header />
-      <BreadCrumb title="Pricing Plan" innerTitle="Pricing Plan" />
+      <BreadCrumb title="Pricing Plans" innerTitle="Pricing Plans" />
       <PricingPlansMain />
       <Footer />
       <ScrollToTop />

@@ -1,9 +1,9 @@
 "use client";
 import { useParams, useRouter } from "next/navigation";
 import showcaseData from "@/components/data/showcase-data";
-import ShowcaseDetails from "@/components/pages/showcases/showcase-details";
+import CaseStudyDetails from "@/components/pages/case-studies/case-study-details";
 
-const ShowcaseDetail = () => {
+const CaseStudyDetail = () => {
   const params = useParams();
   const singleData = showcaseData?.find(
     (showcase) => showcase.id === params.id,
@@ -14,9 +14,9 @@ const ShowcaseDetail = () => {
   }
   return (
     <>
-      <ShowcaseDetails singleData={singleData} />
+      <CaseStudyDetails singleData={singleData} />
     </>
   );
 };
 
-export default ShowcaseDetail;
+export default CaseStudyDetail;

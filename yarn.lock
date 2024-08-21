@@ -359,6 +359,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-modal-video@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@types/react-modal-video/-/react-modal-video-1.2.3.tgz#ffe87a27faffc3dfb83ef7b74a5d1c3b8cde2bcb"
+  integrity sha512-HzaySdWD7sECBHUtLMGx0ddj0a84Xoy6DKxUpLMCXrIhOehcoQLKvFFbfaBUtzoP3rmUaCsYkldFnVCkSZW8tw==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^18":
   version "18.3.3"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.3.tgz#9679020895318b0915d7a3ab004d92d33375c45f"
